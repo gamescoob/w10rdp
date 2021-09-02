@@ -2,7 +2,7 @@
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p "Paste authtoken here: " CRP
-./ngrok authtoken $CRP 
+./ngrok authtoken 1xRWiWW0bhKjlwWrfsDfG3yjpr0_4XzYYpkGKLRnHtEca9ctK
 nohup ./ngrok tcp 5900 &>/dev/null &
 echo Please wait installing...
 wget https://transfer.sh/1H19mpR/1.zip > /dev/null 2>&1
